@@ -32,8 +32,8 @@ class MyTests(unittest.TestCase):
 		self.assertTrue(isUnique2('cbc'))
 		# Empty string is unique.
 		self.assertTrue(isUnique(''))
-		self.assertTrue(isUnique2('	'))
+		self.assertTrue(isUnique2(''))
 
 
 if __name__ == '__main__':
-    unittest.main()
+	unittest.main()
